@@ -1,0 +1,174 @@
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('../images/coffee.jpg');
+	height:100vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+	
+}
+
+.body{
+	font-size:20px;
+	overflow-x:hidden;
+lo	color:white;
+}
+
+	
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+.clearfix:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0 px;
+	clear:both;
+}
+
+
+.row{
+	max-width:1180px;
+	margin:auto;
+}
+
+.logo{
+	height:120px;
+	width:auto;
+	float:left;
+	margin-top:20px;
+}
+
+.main-nav{
+	float:right;
+	margin-top:60px;
+}
+
+.main-nav li{
+	display:inline;
+	list-style-type:none;
+	margin-left:40px;
+	
+}
+
+
+.main-nav li a{
+	padding:5px 0;
+	color:white;
+	text-decoration:none;
+	font-size:90%;
+	font-weight:100;
+	
+}
+
+.main-nav li a:hover{
+	border-bottom:2px solid purple ;
+}
+	
+
+.main-content-header{
+width:1180px;
+position:absolute;
+top:55%;
+left:50%;
+transform:translate(-50%,-50%);
+
+
+}
+
+
+h1{
+	color:#fff;
+	font-size:240%;
+	word-spacing:5px;
+	letter-spacing:3px;
+	margin-left:400px;
+	font-weight:lighter;
+}
+
+.btn{
+border:1px solid white;
+text-decoration:none;
+color:purple;
+font-weight:lighter;
+font-size:bold;
+display:inline-block;
+padding:15px;
+text-transform:uppercase;
+transition:background-color 0.2s,border0.2s,color 0.2;
+}
+
+
+.btn-full{
+	background-color:transparent;
+	margin-right:15px;
+}
+
+.btn-nav{
+	background-color:transparent;
+}
+
+.btn:hover{
+	background-color:white;
+}
+
+.colorchange{
+	animation:colorchangeseema 1s infinite;
+}
+
+@keyframes colorchangeseema{
+	0%{color:red;}
+	25%{color:white;}
+	50%{color:purple;}
+	100%{color:green;}
+}
+
+
+
+///*responsive query*/
+@media only screen and (max-width:1180px){
+	.main-content-header{
+		width:100%;
+		padding:0 2%;
+	}
+
+}
+
+@media only screen and (max-width:998px){
+				h1{font-size:200%;}
+				
+	
+}	
+
+
+@media only screen and (max-width:768px){
+				h1{font-size:180%;}
+				.main-nav{ 
+				display: none;
+				}
+				
+			.mobile-icon{
+				display:inline-table;
+			}
+				
+}
+
+
+.name{text-align: center;
+		padding:15px;
+		text-transform: uppercase; 
+		background-color:#5D4037;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		text-shadow: 3px 2px ;
+		font-size:  italic;
+	} 
+
+
+
+
+
